@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BalochiVision | Balochi OCR & Translation</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background: #0b1120;
+            overflow: hidden;
+        }
+        iframe {
+            width: 100%;
+            height: 100vh;
+            border: none;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <iframe
+        src="https://nawal42-balochivision.hf.space"
+        title="BalochiVision OCR and Translation"
+        allow="clipboard-read; clipboard-write; fullscreen"
+        allowfullscreen>
+    </iframe>
+</body>
+</html>
